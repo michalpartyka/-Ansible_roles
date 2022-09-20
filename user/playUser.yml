@@ -1,0 +1,6 @@
+- name: playUser
+  become: true
+  hosts: all
+  connection: local
+  roles:
+   - user
