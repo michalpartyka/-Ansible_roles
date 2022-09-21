@@ -1,6 +1,0 @@
-- name: installPackages
-  become: true
-  hosts: all
-  connection: local
-  roles:
-   - packages
