@@ -1,10 +1,11 @@
 ---
 - name: create group panda
-  ansible.builtin.group:
+  group:
     name: panda
     state: present
+    
 - name: create user panda and add to panda and sudo groups
-  ansible.builtin.user:
+  user:
     name: panda
     shell: /bin/bash
     groups:
