@@ -1,0 +1,6 @@
+---
+- hosts: local
+  vars:
+    deployment_path: ~/Infrastructure
+    git_repository: https://github.com/michalpartyka/Infrastructure.git
+    git_branch: main
